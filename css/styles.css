@@ -136,21 +136,23 @@ a {
    font-family: "Roboto", sans-serif;
    font-weight: 700;
    font-size: 56px;
-   line-height: 1.07143;
+   line-height: 1.07;
    letter-spacing: 0.02em;
    text-align: center;
+   margin-bottom: 48px;
    color: #fff;
 }
 
 .hero-centr {
    display: block;
-   padding-top: 188px;
+   padding-top: 188px ;
    padding-bottom: 48px;
 }
 
 .hero {
-   padding: 188px 0 48px;
+   padding: 188px 0;
    background: #2e2f42;
+   text-align: center;
 }
 
    .btn {
@@ -187,19 +189,14 @@ a {
 
 .ul-list {
    display: flex;
-   gap: 30px;
-   list-style: none;
-   padding: 0;
-   margin: 120px;
-   justify-content: center;
-   
+   gap: 24px;
+   margin: 0;  
 }
 
 .features-list {
-   width: 250px;
+   width: 264px;
    display: flex;
    flex-direction: column;
-   gap: 24px;
 }
 
 .features-titel {
@@ -208,6 +205,7 @@ a {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin-bottom: 8px;
 }
 
 .features-list {
@@ -225,6 +223,7 @@ a {
    letter-spacing: 0.02em;
    color: #434455;
 }
+
 
 .team-titel {
    margin: 72px 0;
@@ -245,6 +244,8 @@ a {
    padding: 120px 0;
    background: #f4f4fd;
 }
+
+
 
 .team-name {
    font-weight: 500;
@@ -319,6 +320,13 @@ a {
    overflow: hidden;
    text-align: center;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-content {
+   border: 1px solid #e7e9fc;
+   border-top: none;
+   padding: 32px 16px;
+   text-align: left;
 }
 
 .portfolio-content {
