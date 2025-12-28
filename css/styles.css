@@ -141,11 +141,12 @@ a {
    text-align: center;
    margin-bottom: 48px;
    color: #fff;
+   margin: 0 auto;
+   max-width: 496px;
 }
 
 .hero-centr {
    display: block;
-   padding-top: 188px ;
    padding-bottom: 48px;
 }
 
@@ -157,12 +158,16 @@ a {
 
    .btn {
          display: inline-block;
-         padding: 16px 32px;
          border: none;
          border-radius: 4px;
          background: #4d5ae5;
          color: #fff;
          cursor: pointer;
+         font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+        
+         
 }
 
 .btn {
@@ -172,6 +177,7 @@ a {
    width: 169px;
    height: 56px;
    background: #4d5ae5;
+   
 }
 
 .btn:hover,
@@ -226,7 +232,7 @@ a {
 
 
 .team-titel {
-   margin: 72px 0;
+  padding: 72px;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11111;
@@ -254,6 +260,7 @@ a {
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   margin-bottom: 8px;
 }
 
 .team-item {
@@ -273,6 +280,7 @@ a {
    letter-spacing: 0.02em;
    text-align: center;
    color: #434455;
+   margin-bottom: 8px;
 }
 
 .portfolio {
@@ -296,6 +304,7 @@ a {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin-bottom: 8px;
 }
 
 .portfolio-position {
@@ -304,6 +313,7 @@ a {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+   margin-bottom: 8px;
 }
 
 .portfolio-list {
@@ -337,9 +347,9 @@ a {
 }
 
 .footer {
-   height: 312px;
+   padding: 100px 0;
    background: #2e2f42;
-   padding: 99px 0 101px;
+   
 }
 
 .footer-logo {
