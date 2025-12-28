@@ -174,8 +174,7 @@ a {
    border-radius: 4px;
    display: block;
    margin: 0 auto;
-   width: 169px;
-   height: 56px;
+   padding: 16px 32px;
    background: #4d5ae5;
    
 }
@@ -232,7 +231,7 @@ a {
 
 
 .team-titel {
-  padding: 72px;
+  padding-bottom: 72px;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11111;
